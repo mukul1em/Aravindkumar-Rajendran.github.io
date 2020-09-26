@@ -20,4 +20,4 @@ git commit -m 'deploy'
 git push -f git@github.com:Aravindkumar-Rajendran/Aravindkumar-Rajendran.github.io.git master
 
 
-cd -
+cd - 
