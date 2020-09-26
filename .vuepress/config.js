@@ -1,7 +1,7 @@
 module.exports = {
   "title": "The Realm of AI",
   "description": "An adaptive and interactive learning management system for AI",
-  "dest": "public",
+  // "dest": "public",
   "base": "/",
   "head": [
     [
