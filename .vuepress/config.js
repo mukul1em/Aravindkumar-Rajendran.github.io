@@ -37,8 +37,8 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
+            "text": "Realm of Docs",
+            "link": "/docs/realmofdocs/"
           }
         ]
       },
@@ -55,11 +55,8 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
+      "/docs/realmofdocs/": [
+        ""
       ]
     },
     "type": "blog",
@@ -87,12 +84,12 @@ module.exports = {
     //     "link": "https://vuepress-theme-reco.recoluan.com"
     //   }
     // ],
-    "logo": "/logo.png",
+    // "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "Aravind",
-    "authorAvatar": "/avatar.png",
+    // "author": "Aravind",
+    // "authorAvatar": "/avatar.png",
     // "record": "xxxx",
     "startYear": "2020"
   },
