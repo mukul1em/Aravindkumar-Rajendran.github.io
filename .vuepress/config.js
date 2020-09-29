@@ -33,12 +33,12 @@ module.exports = {
         "icon": "reco-date"
       },
       {
-        "text": "Docs",
+        "text": "Resources",
         "icon": "reco-message",
         "items": [
           {
-            "text": "Realm of Docs",
-            "link": "/docs/realmofdocs/"
+            "text": "Computer Vision",
+            "link": "/docs/computer_vision/"
           }
         ]
       },
@@ -55,8 +55,12 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/realmofdocs/": [
-        ""
+      "/docs/computer_vision/": [
+        "",
+        "maths",
+        "probability_n_statistics",
+        "linear_algebra",
+        "calculus"
       ]
     },
     "type": "blog",
