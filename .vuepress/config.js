@@ -3,6 +3,7 @@ module.exports = {
   "description": "An adaptive and interactive learning management system for AI",
   // "dest": "public",
   "base": "/",
+  "subSidebar": 'auto',
   "head": [
     [
       "link",
@@ -21,6 +22,7 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "noFoundPageByTencent": false,
     "nav": [
       {
         "text": "Home",
@@ -64,23 +66,22 @@ module.exports = {
       ]
     },
     "type": "blog",
-    "blogConfig": {
-      "category": {
-        "location": 2,
-        "text": "Category"
-      },
-      "tag": {
-        "location": 3,
-        "text": "Tag"
-      }
-    },
-    // "friendLink": [
-    //   {
-    //     "title": "午后南杂",
-    //     "desc": "Enjoy when you can, and endure when you must.",
-    //     "email": "1156743527@qq.com",
-    //     "link": "https://www.recoluan.com"
+    // "blogConfig": {
+    //   "category": {
+    //     "location": 2,
+    //     "text": "Category"
     //   },
+    //   "tag": {
+    //     "location": 3,
+    //     "text": "Tag"
+    //   }
+    // },
+    // "friendLink": [
+    //     {
+    //       "title": "Timeline",
+    //       "link": "/timeline/"
+    //     }
+    //   ],
     //   {
     //     "title": "vuepress-theme-reco",
     //     "desc": "A simple and beautiful vuepress Blog & Doc theme.",
@@ -89,15 +90,15 @@ module.exports = {
     //   }
     // ],
     // "logo": "/logo.png",
-    "search": true,
-    "searchMaxSuggestions": 10,
-    "lastUpdated": "Last Updated",
     // "author": "Aravind",
     // "authorAvatar": "/avatar.png",
     // "record": "xxxx",
+    "search": true,
+    "searchMaxSuggestions": 10,
+    "lastUpdated": "Last Updated",
     "startYear": "2020"
   },
   "markdown": {
     "lineNumbers": true
-  }
+    }
 }
