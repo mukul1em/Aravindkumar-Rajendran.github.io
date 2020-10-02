@@ -1,6 +1,6 @@
 module.exports = {
   "title": "The Realm of AI",
-  "description": "An adaptive and interactive learning management system for AI",
+  "description": "Adaptive and Interactive learning management system for Applied Artificial Intelligence",
   // "dest": "public",
   "base": "/",
   "subSidebar": 'auto',
@@ -40,7 +40,7 @@ module.exports = {
         "items": [
           {
             "text": "Computer Vision",
-            "link": "/docs/computer_vision/"
+            "link": "/resources/computer_vision/"
           }
         ]
       },
@@ -57,12 +57,17 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/computer_vision/": [
-        "",
-        "maths",
-        "probability_n_statistics",
-        "linear_algebra",
-        "calculus"
+      '/resources/computer_vision/': [
+        {
+          title: 'Maths',
+          collapsable: false,
+          children: [
+            'maths/',
+            'maths/probability_n_statistics',
+            'maths/linear_algebra',
+            'maths/calculus'
+          ]
+        }
       ]
     },
     "type": "blog",
@@ -90,7 +95,7 @@ module.exports = {
     //   }
     // ],
     // "logo": "/logo.png",
-    // "author": "Aravind",
+    // "author": "Content",
     // "authorAvatar": "/avatar.png",
     // "record": "xxxx",
     "search": true,
