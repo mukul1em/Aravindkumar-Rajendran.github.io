@@ -1,6 +1,6 @@
 module.exports = {
   "title": "The Realm of AI",
-  "description": "Adaptive and Interactive learning management system for Applied Artificial Intelligence",
+  "description": "Adaptive and Interactive website for learning Applied Artificial Intelligence",
   // "dest": "public",
   "base": "/",
   "subSidebar": 'auto',
@@ -50,7 +50,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/Aravindkumar-Rajendran/TheRealmofAI",
+            "link": "https://github.com/Aravindkumar-Rajendran/Aravindkumar-Rajendran.github.io/wiki",
             "icon": "reco-github"
           }
         ]
@@ -60,7 +60,7 @@ module.exports = {
       '/resources/computer_vision/': [
         {
           title: 'Maths',
-          collapsable: false,
+          collapsable: true,
           children: [
             'maths/',
             'maths/probability_n_statistics',
@@ -70,7 +70,7 @@ module.exports = {
         },
         {
           title: 'CS Fundamentals',
-          collapsable: false,
+          collapsable: true,
           children: [
             'cs_fundamentals/',
             'cs_fundamentals/unix_cmds',
@@ -83,7 +83,7 @@ module.exports = {
         },
         {
           title: 'Programming',
-          collapsable: false,
+          collapsable: true,
           children: [
             'programming/',
             'programming/python',
@@ -92,7 +92,7 @@ module.exports = {
         },
         {
           title: 'Libraries',
-          collapsable: false,
+          collapsable: true,
           children: [
             'libraries/',
             'libraries/opencv',
@@ -104,28 +104,40 @@ module.exports = {
           ]
         },
         {
+          title: 'Data Engineering',
+          collapsable: true,
+          children: [
+            'dataset/',
+            'dataset/dataset_preparation',
+            'dataset/dataset_collection',
+            'dataset/labelling',
+            'dataset/data_augmentation'
+          ]
+        },
+        {
           title: 'Computer Vision using Deep learning',
-          collapsable: false,
+          collapsable: true,
           children: [
             'deep_learning/cv_basics'
           ]
         },
         {
           title: 'Image AI',
-          collapsable: false,
+          collapsable: true,
           children: [
             'deep_learning/image_ai/',
             'deep_learning/image_ai/convolutions',
             'deep_learning/image_ai/image_classifcation',
             'deep_learning/image_ai/object_detection',
             'deep_learning/image_ai/object_tracking',
+            'deep_learning/image_ai/recurrent',
             'deep_learning/image_ai/image_captioning',
             'deep_learning/image_ai/image_qa',
           ]
         },
         {
           title: 'Video AI',
-          collapsable: false,
+          collapsable: true,
           children: [
             'deep_learning/video_ai/',
             'deep_learning/video_ai/action_recognition',
@@ -134,7 +146,7 @@ module.exports = {
         },
         {
           title: 'Backend',
-          collapsable: false,
+          collapsable: true,
           children: [
             'backend/',
             'backend/restful',
@@ -145,7 +157,7 @@ module.exports = {
         },
         {
           title: 'Deployment',
-          collapsable: false,
+          collapsable: true,
           children: [
             'deployment/',
             'deployment/cpu/intel_vino',
@@ -157,7 +169,7 @@ module.exports = {
         },
         {
           title: 'Experiment Tracking',
-          collapsable: false,
+          collapsable: true,
           children: [
             'experiments/',
             'experiments/ml_flow',
@@ -166,7 +178,7 @@ module.exports = {
         },
         {
           title: 'Keep learning',
-          collapsable: false,
+          collapsable: true,
           children: [
             'keep_learning/'
           ]
