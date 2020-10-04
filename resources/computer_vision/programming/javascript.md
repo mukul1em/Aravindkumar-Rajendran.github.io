@@ -2,4 +2,4 @@
 title: Javascript
 ---
 
-<video-container src="https://www.youtube.com/watch?v=Qqx_wzMmFeA" />
+<video-container src="https://www.youtube.com/embed/Qqx_wzMmFeA" />
