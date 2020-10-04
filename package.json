@@ -1,5 +1,5 @@
 {
-  "name": "TheRealmofAI",
+  "name": "therealmofai",
   "version": "1.0.0",
   "author": "Aravind",
   "scripts": {
@@ -14,5 +14,5 @@
   "dependencies": {
     "vue-class-component": "^7.2.3"
   },
-  "description": "Adaptive and Interactive learning management system for Applied Artificial Intelligence"
+  "description": "Adaptive and Interactive site for learning Applied Artificial Intelligence"
 }

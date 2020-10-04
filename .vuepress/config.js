@@ -67,37 +67,113 @@ module.exports = {
             'maths/linear_algebra',
             'maths/calculus'
           ]
-        }
+        },
+        {
+          title: 'CS Fundamentals',
+          collapsable: false,
+          children: [
+            'cs_fundamentals/',
+            'cs_fundamentals/unix_cmds',
+            'cs_fundamentals/chip_arch',
+            'cs_fundamentals/networking',
+            'cs_fundamentals/database',
+            'cs_fundamentals/machine_learning',
+            'cs_fundamentals/neural_networks'
+          ]
+        },
+        {
+          title: 'Programming',
+          collapsable: false,
+          children: [
+            'programming/',
+            'programming/python',
+            'programming/javascript'
+          ]
+        },
+        {
+          title: 'Libraries',
+          collapsable: false,
+          children: [
+            'libraries/',
+            'libraries/opencv',
+            'libraries/pillow',
+            'libraries/numpy',
+            'libraries/pandas',
+            'libraries/tensorflow',
+            'libraries/pytorch'
+          ]
+        },
+        {
+          title: 'Computer Vision using Deep learning',
+          collapsable: false,
+          children: [
+            'deep_learning/cv_basics'
+          ]
+        },
+        {
+          title: 'Image AI',
+          collapsable: false,
+          children: [
+            'deep_learning/image_ai/',
+            'deep_learning/image_ai/convolutions',
+            'deep_learning/image_ai/image_classifcation',
+            'deep_learning/image_ai/object_detection',
+            'deep_learning/image_ai/object_tracking',
+            'deep_learning/image_ai/image_captioning',
+            'deep_learning/image_ai/image_qa',
+          ]
+        },
+        {
+          title: 'Video AI',
+          collapsable: false,
+          children: [
+            'deep_learning/video_ai/',
+            'deep_learning/video_ai/action_recognition',
+            'deep_learning/video_ai/video_captioning'
+          ]
+        },
+        {
+          title: 'Backend',
+          collapsable: false,
+          children: [
+            'backend/',
+            'backend/restful',
+            'backend/fast_api',
+            'backend/flask',
+            'backend/django'
+          ]
+        },
+        {
+          title: 'Deployment',
+          collapsable: false,
+          children: [
+            'deployment/',
+            'deployment/cpu/intel_vino',
+            'deployment/gpu/tf_extended',
+            'deployment/gpu/nvidia_docker',
+            'deployment/mobile/tf_lite',
+            'deployment/dsp/mediapipe'
+          ]
+        },
+        {
+          title: 'Experiment Tracking',
+          collapsable: false,
+          children: [
+            'experiments/',
+            'experiments/ml_flow',
+            'experiments/dvc'
+          ]
+        },
+        {
+          title: 'Keep learning',
+          collapsable: false,
+          children: [
+            'keep_learning/'
+          ]
+        },
       ]
     },
     "type": "blog",
-    // "blogConfig": {
-    //   "category": {
-    //     "location": 2,
-    //     "text": "Category"
-    //   },
-    //   "tag": {
-    //     "location": 3,
-    //     "text": "Tag"
-    //   }
-    // },
-    // "friendLink": [
-    //     {
-    //       "title": "Timeline",
-    //       "link": "/timeline/"
-    //     }
-    //   ],
-    //   {
-    //     "title": "vuepress-theme-reco",
-    //     "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-    //     "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-    //     "link": "https://vuepress-theme-reco.recoluan.com"
-    //   }
-    // ],
-    // "logo": "/logo.png",
-    // "author": "Content",
-    // "authorAvatar": "/avatar.png",
-    // "record": "xxxx",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",

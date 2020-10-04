@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: The Realm of AI
-tagline: Adaptive and Interactive learning management system for Applied Artificial Intelligence
+tagline: Adaptive and Interactive site for learning Applied Artificial Intelligence
 bgImageStyle: {
   height: '60rem'
 }
