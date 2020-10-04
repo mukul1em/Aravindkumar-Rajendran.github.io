@@ -2,4 +2,4 @@
 title: Image Classification
 ---
 
-<video-container src="https://youtu.be/AACPaoDsd50" />
+<video-container src="https://www.youtube.com/embed/AACPaoDsd50" />
