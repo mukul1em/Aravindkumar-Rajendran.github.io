@@ -2,7 +2,7 @@
 title: Programming Language
 ---
 
-Programming is the only way to communicate to the computer.
+Programming is a way to communicate to the computer.
 
 <br/>
 
