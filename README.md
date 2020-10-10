@@ -3,9 +3,9 @@ home: true
 heroText: The Realm of AI
 tagline: Adaptive and Interactive site for learning Applied Artificial Intelligence
 bgImageStyle: {
-  height: '60rem'
+  height: '58em'
 }
-# heroImage: /scroll-down-arrow.png
+bgImage: '/bubble-animated-background.svg'
 # heroImageStyle: {
 #   maxWidth: '10rem',
 #   width: '100%',
